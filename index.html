@@ -18,8 +18,7 @@
     <div class="deck">
       <div v-for="card in cards" :key="card.id"
           class="card"
-          :class="{ 'black': card.suit === '♠' || card.suit ===  '♣',
-                    'red': card.suit === '♥' || card.suit ===  '♦' }">
+          :class="suitColor[card.suit">
         <span class="card__suit card__suit--top">♣</span>
         <span class="card__number">A</span>
         <span class="card__suit card__suit--bottom">♣</span>
