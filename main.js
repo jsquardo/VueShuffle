@@ -33,16 +33,16 @@ new Vue({
     },
     shuffleDeck() {
       // Using the Fisher-Yates algorithm for shuffling the deck in a random way.
-      for (let i = this.cards.length -1; i > 0; i--) {
+      for (let i = this.cards.length - 1; i > 0; i--) {
         // Pick a random element to shuffle by using Math.random
         let randomIndex = Math.floor(Math.random() * i);
 
         // Set temp to = the value of the current card item
         let temp = this.cards[i];
         // Sets the value of the card item in current index to = item for random index.
-        Vue.set(this.cards[i] = this.cards[randomIndex]);
+        Vue.set(this.cards, i, this.cards[randomIndex]);
         // Sets the value of the array item of randomIndex to = temp variable
-        Vue.set(this.cards[randomIndex] = temp);
+        Vue.set(this.cards, randomIndex, temp);
       }
     },
   },
