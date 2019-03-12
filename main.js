@@ -10,6 +10,7 @@ new Vue({
       '♦': 'red',
       '♥': 'red',
     },
+    shuffleSpeed: 'shuffleMedium',
   },
   created() {
     this.displayInitialDeck();
