@@ -11,11 +11,9 @@ new Vue({
       '♥': 'red',
     },
   },
-
   created() {
     this.displayInitialDeck();
   },
-
   methods: {
     displayInitialDeck() {
       let id = 1;
@@ -33,5 +31,5 @@ new Vue({
         }
       }
     },
-  }
+  },
 });
