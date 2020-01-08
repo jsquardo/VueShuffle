@@ -10,7 +10,7 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="http://defective-learning.surge.sh/">View Demo</a>
     ·
     <a href="https://https://github.com/jsquardo/VueShuffle/issues">Report Bug</a>
     ·
