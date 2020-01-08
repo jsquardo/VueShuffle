@@ -1,6 +1,3 @@
-# VueShuffle
-
-
 <p align="center">
   <h1 align="center" style="font-weight:bold">VueShuffle</h1>
   <p align="center">
